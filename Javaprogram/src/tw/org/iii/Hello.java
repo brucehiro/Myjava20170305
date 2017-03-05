@@ -1,8 +1,8 @@
-package tw.org.iii; //package¥u¯à¦³¤@¦æ¡A¥u¯à¦b²Ä¤@¦æ
+package tw.org.iii; //packageåªèƒ½æœ‰ä¸€è¡Œï¼Œåªèƒ½åœ¨ç¬¬ä¸€è¡Œ
 
-public/*public¬°¦s¨ú­×¹¢¦r¡A¥i¥Î©ó©Ò¦³¦a¤è¡Apublic class¥u¯à¦³¤@­Ó(Ãş¦ümain()),¨ä¥L¥i¥H¦³¦h­Ó.*/ class /*class¥u¦³public©Î¨S¦³­×¹¢¦r*/ Hello /*Hello¬°class¦WºÙ.*/ { //©w¸qclass
-	public static/*¥DÃş§O¦WºÙ¤@©w­n¬Opublic static*/ void/*¤£¦^¶Ç­È(void)*/ main(String array[]) /*°Ñ¼Æ¥]§t¦r¦ê°}¦C(String[] °}¦C¦WºÙ)*/{ //©w¸qmethod(main)
+public/*publicç‚ºå­˜å–ä¿®é£¾å­—ï¼Œå¯ç”¨æ–¼æ‰€æœ‰åœ°æ–¹ï¼Œpublic classåªèƒ½æœ‰ä¸€å€‹(é¡ä¼¼main()),å…¶ä»–å¯ä»¥æœ‰å¤šå€‹.*/ class /*classåªæœ‰publicæˆ–æ²’æœ‰ä¿®é£¾å­—*/ Hello /*Helloç‚ºclassåç¨±.*/ { //å®šç¾©class
+	public static/*ä¸»é¡åˆ¥åç¨±ä¸€å®šè¦æ˜¯public static*/ void/*ä¸å›å‚³å€¼(void)*/ main(String array[]) /*åƒæ•¸åŒ…å«å­—ä¸²é™£åˆ—(String[] é™£åˆ—åç¨±)*/{ //å®šç¾©method(main)
 		System.out.println("Hello world");
-		System.out.println("How are you");
+		System.out.println("Hello Bruce 1");
 	}
 }
