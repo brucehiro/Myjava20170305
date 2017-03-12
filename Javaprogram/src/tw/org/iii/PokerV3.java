@@ -26,6 +26,7 @@ public class PokerV3 {
 //		{
 //			System.out.printf("%3d",poker[i]);
 //		}
+		
 		//發牌
 		int[][] player = new int [4][13];
 		
