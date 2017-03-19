@@ -10,6 +10,8 @@ public class java20170318 {
 		hiro_class b1 = new hiro_class();
 		hiro_class b2 = new hiro_class();
 		hiro_class b3 = new hiro_class();
+		hiro_class b4 = new hiro_class("Hello","world");
+		
 		
 
 	}

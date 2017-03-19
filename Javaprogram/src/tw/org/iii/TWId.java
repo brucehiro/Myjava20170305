@@ -22,18 +22,20 @@ public class TWId {
 		//super();
 		char id0 = letters.charAt(area);
 		char id1 = genderCheck?'2':'1';
-		String temp = "" + id0 + id1;
+		StringBuffer temp = new StringBuffer("" + id0 + id1);
+		//String temp = "" + id0 + id1;
 		
 		for(int i = 0; i < 7; i++)
 		{
-			temp += (int)(Math.random()*10);
+			temp.append((int)(Math.random()*10));
+			//temp += (int)(Math.random()*10);
 		}
 		
 		for(int i = 0; i < 10; i++)
 		{
-			if(TWId.IdCheck(temp + i))
+			if(TWId.IdCheck(temp.toString() + i))
 			{
-				id = temp + i;
+				id = temp.append(i).toString();
 				break;
 			}
 		}

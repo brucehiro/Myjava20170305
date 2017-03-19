@@ -19,16 +19,12 @@ public class hiro_class {
 	//初始化類別
 	hiro_class()
 	{
+		this("","");
 		System.out.println("Hello");
 	}
 	
-//	void printInput()
-//	{
-//		this("","");
-//	}
-//	
-//	void printInput(String a, String b)
-//	{
-//		System.out.println(a + b);
-//	}
+	hiro_class(String a, String b)
+	{
+		System.out.println(a + b);
+	}
 }
