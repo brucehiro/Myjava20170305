@@ -10,12 +10,12 @@ import javax.swing.JFrame;//因為JFrame不屬於java.lang，所以會import其�
 import javax.swing.JPanel;
 import javax.swing.border.Border;
 
-public class Java20170318_4 extends JFrame{
+public class Java20170318_4_windows extends JFrame{
 	private JButton open, save, exit; //按鈕可能會在類別的其他地方被呼叫到，所以在此處宣告三種屬於JBtton型別的變數，生命週期會存在於整個class中。
-	private MyPainter myPainter;
+	private MyPainter2 myPainter;
 	
 	//初始化
-	Java20170318_4()
+	Java20170318_4_windows()
 	{
 		//super;
 		super("視窗程式");//呼叫父類別的建構式，利用super(參數)。
@@ -38,7 +38,7 @@ public class Java20170318_4 extends JFrame{
 		JPanel top = new JPanel(new FlowLayout());
 		top.add(open); top.add(save); top.add(exit);
 		
-		myPainter = new MyPainter();
+		myPainter = new MyPainter2();
 		
 		//將容器top以BorderLayout放入視窗的北邊(上方)
 		//因為myPainter繼承JPanel，屬於component(add只能加入component)，因此可以將其加入到視窗的中間。
@@ -61,7 +61,7 @@ public class Java20170318_4 extends JFrame{
 	}
 
 	public static/*要執行此程式時，會將其所屬的類別載入(本程式的類別為Java20170318_4)，所以用static*/ void main/*程式進入點*/(String[] args) {
-		new Java20170318_4();//建立一個Java20170318_4()類別的物件。因為沒有建構式，所以會以JFrame無傳參數建構式為其唯一建構式。
+		new Java20170318_4_windows();//建立一個Java20170318_4()類別的物件。因為沒有建構式，所以會以JFrame無傳參數建構式為其唯一建構式。
 
 	}
 
