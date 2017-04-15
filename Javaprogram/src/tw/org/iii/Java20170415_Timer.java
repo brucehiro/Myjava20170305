@@ -13,10 +13,7 @@ public class Java20170415_Timer {
 		timer.schedule(new StopJava(timer), 5000);
 		
 		System.out.println("main");
-
-	}
-	
-		
+	}		
 }
 class Mytask extends TimerTask
 {
